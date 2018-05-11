@@ -36,13 +36,15 @@ else
   
 bot.on("message", message => {
     if(message.content === "]TeamSpoc")  {
-        message.member.addRole('444296298435313675')
+        message.member.addRole("name", `TeamSpoc`)
+        message.replt("TeamSpoc Role was given")
     }
 });
 
 bot.on("message", message => {
     if(message.content === "]teamspoc")  {
-        message.member.addRole('444296298435313675')
+        message.member.addRole("name", `teamspoc`)
+        message.replt("TeamSpoc Role was given")
     }
 });
 
