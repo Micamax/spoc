@@ -43,7 +43,7 @@ bot.on("message", message => {
 
 bot.on("message", message => {
     if(message.content === "]teamspoc")  {
-        message.member.addRole(message.guild.roles.find("name", `teamspoc`))
+        message.member.addRole(message.guild.roles.find("name", `TeamSpoc`))
         message.reply("TeamSpoc Role was given")
     }
 });
