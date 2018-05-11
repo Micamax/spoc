@@ -34,4 +34,16 @@ else
     return newMember.addRole(newMember.guild.roles.find("name", `${config.LiveRole}`))
   });
   
+bot.on("message", message => {
+    if(message.content === "]TeamSpoc")  {
+        message.member.addRole('444296298435313675')
+    }
+});
+
+bot.on("message", message => {
+    if(message.content === "]teamspoc")  {
+        message.member.addRole('444296298435313675')
+    }
+});
+
 bot.login(process.env.BOT_TOKEN)
